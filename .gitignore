@@ -1,0 +1,6 @@
+# IDE files
+
+.eclipse/
+.idea/
+.vscode/
+*.hxproj
