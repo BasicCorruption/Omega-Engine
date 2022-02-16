@@ -1,7 +1,14 @@
 package omega.engine;
 
-class Main {
+import openfl.Lib;
+import flixel.FlxGame;
+import omega.engine.hub.window.MainUI;
+import openfl.display.Sprite;
+
+class Main extends Sprite {
   public function new() {
-    Lib.current.addChild(new FlxGame(0, 0, MainUI));
+	  super();
+	  
+		Lib.current.addChild(new FlxGame(0, 0, MainUI, 1, 60, 60, true, false));
   }
 }
